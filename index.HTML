@@ -55,7 +55,7 @@
             </div>
 
             <!-- <div class="middle_cant flex"> -->
-            <div class="box flex gap-1.5 hidden lg:block">
+            <div class="box gap-1.5 hidden lg:flex">
                 <li class="border-2 border-orange-300 text-gray-500 text-2xl font-light p-2 list-none cursor-pointer">
                     <i class="fa-regular fa-house"></i>
                 </li>
@@ -66,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="box flex gap-1.5 hidden lg:block">
+            <div class="box  gap-1.5 hidden lg:flex">
                 <li class="border-2 border-orange-300 text-gray-500 text-2xl font-light p-2 list-none cursor-pointer">
                     <i class="fa-regular fa-house"></i>
                 </li>
@@ -78,7 +78,7 @@
             </div>
 
 
-            <div class="box flex gap-1.5 hidden lg:block">
+            <div class="box  gap-1.5 hidden lg:flex">
                 <li class="border-2 border-orange-300 text-gray-500 text-2xl font-light p-2 list-none cursor-pointer">
                     <i class="fa-regular fa-house"></i>
                 </li>
@@ -95,20 +95,20 @@
         </div>
 
 
-        <div class="header_last flex justify-center items-center border-2 border-black w-[70%]">
+        <div class="header_last flex justify-center items-center w-[70%] p-0">
 
-            <div class="page_link flex p-3 w-[40%]">
+            <div class="page_link flex p-0 text-white w-[40%]">
                 <nav>
                     <ul class="flex">
-                        <li class="px-3 text-xl font-medium">
+                        <li class="px-5 text-xl font-medium cursor-pointer py-2 bg-[#2b293f]">
                             Home
                         </li>
 
-                        <li class="px-3 text-xl font-medium">
+                        <li class="px-5 text-xl font-medium cursor-pointer py-2 bg-[red]">
                             About Us
                         </li>
 
-                        <li class="px-3 text-xl font-medium">
+                        <li class="px-5 text-xl font-medium cursor-pointer py-2 bg-[red]">
                             Contact Us
                         </li>
                     </ul>
@@ -117,8 +117,8 @@
 
             </div>
 
-            <div class="search_bar flex w-[20%] border-2 border-amber-300 p-0">
-                <input type="text" placeholder="Search" class=" w-full">
+            <div class="search_bar flex w-[20%] border-2 h-full border-amber-300 p-0">
+                <input type="text" placeholder="Search" class="  h-full w-full p-0">
 
                 <li>
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -126,7 +126,7 @@
             </div>
 
 
-            <div class="flex w-[40%] justify-end pr-5">
+            <div class="flex w-[40%] bg-[#ffea2a] justify-end pr-5">
                 <p>Find Advisor</p>
 
                 <li class="list-none">
@@ -138,7 +138,96 @@
 
 
     <main>
-        <section class="bg-[url('/assets/Images/')]">
+        <section style="background-image: url(assets/Images/image-1.jpg); object-fit: contain; width: 100%;"
+            class="h-90 lg:h-150 object-contain flex flex-col items-center justify-center gap-y-10 text-white">
+
+            <div class="w-[60%] flex justify-center ">
+                <h2 class=" text-2xl font-bold lg:text-6xl lg:font-extrabold  text-center ">
+                    We Provide <br> <span class="text-[orange]">Construction</span> Service
+                </h2>
+            </div>
+
+            <div class="w-[60%] flex justify-center">
+                <p class="text-sm font-medium lg:text-2xl lg:font-semibold text-center">
+                    Construction is focused on providing high quality service and customer satisfaction. We will do
+                    everything to meet your expectations
+                </p>
+            </div>
+
+            <div class="w-[60%] text-white font-light flex justify-center gap-2">
+                <button class="py-1 px-10 lg:py-3 lg:px-18 text-sm lg:text-2xl cursor-pointer bg-[orange]">
+                    Our Service
+                </button>
+
+                <button
+                    class="py-1 px-10 lg:py-3 lg:px-18 text-sm lg:text-2xl cursor-pointer bg-[#b3b3b300] border-2 border-white">
+                    Get A Quote
+                </button>
+            </div>
+        </section>
+
+
+        <section class="px-7 py-10 lg:px-12 lg:py-20">
+
+            <div class="">
+                <p>
+                    We Build Everything
+                </p>
+
+                <h4 class="text-5xl font-bold">
+                    <span class="text-[orange]"> Our</span> Services
+                </h4>
+            </div>
+
+            <div class="flex flex-col lg:flex-row mt-8 gap-4">
+
+
+                <div class="p-2 flex flex-col justify-start items-start border-b-3 hover:border-gray-500 border-gray-400 gap-y-4">
+                    <img src="assets/Images/services-3.jpg" alt="img" class="w-full">
+
+                    <h4 class="text-2xl font-semibold text-[orange]">Pre-Construction & Planning</h4>
+
+                    <p class="w-[90%] text-gray-500 text-[14px] lg:text-[18px] font-normal">
+                        Our design professionals are equipped to help you
+                        determine the products and design that work best
+                        for our customers within the colors..
+
+                    </p>
+                </div>
+
+
+                <div class="p-2 flex flex-col justify-start items-start border-b-3 hover:border-gray-500 border-gray-400 gap-y-4">
+                    <img src="assets/Images/services-2.jpg" alt="img" class="w-full">
+
+                    <h4 class="text-2xl font-semibold text-[orange]">Pre-Construction & Planning</h4>
+
+                    <p class="w-[90%] text-gray-500 text-[14px] lg:text-[18px] font-normal">
+                        Our design professionals are equipped to help you
+                        determine the products and design that work best
+                        for our customers within the colors..
+
+                    </p>
+                </div>
+
+
+                <div class="p-2 flex flex-col justify-start items-start border-b-3 hover:border-gray-500 border-gray-400 gap-y-4">
+                    <img src="assets/Images/services-1.jpg" alt="img" class="w-full">
+
+                    <h4 class="text-2xl font-semibold text-[orange]">Pre-Construction & Planning</h4>
+
+                    <p class="w-[90%] text-gray-500 text-[14px] lg:text-[18px] font-normal">
+                        Our design professionals are equipped to help you
+                        determine the products and design that work best
+                        for our customers within the colors..
+
+                    </p>
+                </div>
+
+
+
+            </div>
+
+
 
         </section>
     </main>
