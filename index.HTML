@@ -354,14 +354,14 @@
 
             </div>
 
-            <div class="flex justify-around items-center text-2xl object-contain"
-                style="background-image: url(assets/Images/2.jpg); width: 100%; height: 200px; object-fit: contain;">
-                <p class="text -2xl ">
+            <div class="flex-col justify-center lg:flex lg:justify-around items-center text-2xl object-contain"
+                style="background-image: url(assets/Images/2.jpg); width: 100%; height: 200px; object-fit: contain; display: flex; gap: 10px; ">
+                <p class="text -2xl text-white text-center ">
                     We provide experience & <span class="text-amber-400">high level construction</span> worksolution for
                     you!!
                 </p>
 
-                <button class="border-2 border-amber-400 px-3">
+                <button class="border-2 border-amber-400  text-white font-semibold text-sm py-2.5 px-10   hover:bg-orange-400/70 hover:text-white cursor-pointer">
                     Start A Project
                 </button>
             </div>
@@ -369,9 +369,9 @@
         </section>
 
 
-        <section class="flex px-14 py-5">
+        <section class="flex flex-col lg:flex-row  px-14 py-5">
 
-            <div class="w-[60%]">
+            <div class="w-full lg:w-[60%]">
                 <p class="text-md lg:text-md text-gray-600">
                     Checkout Our Video For
                 </p>
@@ -380,7 +380,7 @@
                     <span class="text-[orange]">Featured </span>Work
                 </h4>
 
-                <p class="w-[85%] text-[17px] text-gray-400 font-normal pr-6">
+                <p class="w-[90%] lg:w-[85%] text-[16px] text-gray-400 font-normal pr-6">
                     Our main focus to help your business growth and your business marketing strategy for
                     profitable scale. We are following below issues
                     <br><br>
@@ -389,40 +389,35 @@
                     or pursues or desires to obtain pain of it is because seds all occasionally circumstances.
                 </p>
 
-                <button class="border-3  border-orange-300 mt-10 text-xl text-gray-500 font-normal py-2 px-10">
+                <button class="border-3  border-orange-300 mt-10 text-xl text-gray-500 hover:bg-orange-400/70 hover:text-white cursor-pointer  font-normal py-2 px-10">
                     Contact Us
                 </button>
 
             </div>
 
 
-            <div class="w-[40%] border-2 border-black ">
+            <div class="w-full lg:w-[40%] py-10 ">
 
-                <div class="h-40 w-100 border-2 border-orange-300 relative top-0 left-0 z-0">
-
-                </div>
-                <div class="sticky z-10">
+                <div class="sticky z-10 text-white">
                     <img src="assets/Images/video-img.jpg" alt="">
                 </div>
 
-                <div class="h-40 w-100 border-2 border-orange-300 relative bottom-0 right-0 z-0">
-
-                </div>
             </div>
+
         </section>
     </main>
 
-    <footer class="" style="background-image: url(assets/Images/3\ \(1\).jpg); background-size: cover; background-color: rgba(47, 47, 54, 0.815); background-blend-mode: overlay;">
+    <footer class="" style="background-image: url(assets/Images/3\ \(1\).jpg); background-size: cover; background-color: rgba(5, 7, 40, 0.838); background-blend-mode: overlay;">
 
-        <div class="flex justify-around items-start px-8 py-8 gap-10">
+        <div class="flex justify-around items-start px-8 pt-8 gap-10">
 
-            <div class="flex flex-col justify-center text-white w-[30%] border-2 border-black gap-y-5">
+            <div class="flex flex-col justify-center text-white w-[30%]  gap-y-5">
 
                 <div>
                     <img src="assets/Images/footer-logo.png" alt="">
                 </div>
 
-                <p class="">
+                <p class="font-light">
                     Construction is international construction services
                     company and is a leading builder in diverse market
                     segments. With a staff of 5,200 employees, the
@@ -432,52 +427,77 @@
 
 
                 <ul class="flex">
-                    <li>5</li>
-                    <li>6</li>
-                    <li>7</li>
+                    <li>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-twitter"></i>
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
                 </ul>
 
 
             </div>
 
-            <div class="w-[20%] border-2 border-black text-white">
+            <div class="w-[20%]  text-white">
                 <h4 class="text-3xl font-medium  text-white pb-3" >Services</h4>
 
-                <ul>
-                    <li>Design and Build</li>
-                    <li>Construction Management</li>
-                    <li>Pre-Construction & Planning</li>
-                    <li>Green Building</li>
-                    <li>Interior Design</li>
-                    <li>Concrete Transport</li>
+                <ul class="font-light">
+                    <li> <i class="fa-solid fa-caret-right"></i> Design and Build</li>
+                    <li> <i class="fa-solid fa-caret-right"></i> Construction Management</li>
+                    <li> <i class="fa-solid fa-caret-right"></i> Pre-Construction & Planning</li>
+                    <li> <i class="fa-solid fa-caret-right"></i> Green Building</li>
+                    <li> <i class="fa-solid fa-caret-right"></i> Interior Design</li>
+                    <li> <i class="fa-solid fa-caret-right"></i> Concrete Transport</li>
                 </ul>
             </div>
 
-            <div class="w-[20%] border-2 border-black">
+            <div class="w-[20%] ">
                 <h4 class="text-3xl font-medium  text-white pb-3"> Services</h4>
 
-                <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
+                <ul class="font-light text-white">
+                    <li> <i class="fa-solid fa-caret-right"></i> Home</li>
+                    <li> <i class="fa-solid fa-caret-right"></i> About Us</li>
+                    <li> <i class="fa-solid fa-caret-right"></i> Contact Us</li>
                 </ul>
             </div>
 
-            <div class="w-[30%] border-2 border-black">
+            <div class="w-[30%] ">
                 <h4 class="text-3xl font-medium  text-white pb-3">Recent Projects</h4>
 
-                <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div class="grid grid-cols-3 grid-rows-3 gap-x-0 gap-y-2">
+                    <div>
+                        <img src="assets/Images/footer-thumb-1.jpg" alt="img">
+                    </div>
+
+                    <div>
+                        <img src="assets/Images/footer-thumb-2.jpg" alt="img">
+                    </div>
+
+                    <div>
+                        <img src="assets/Images/footer-thumb-3.jpg" alt="img">
+                    </div>
+
+                    <div>
+                        <img src="assets/Images/footer-thumb-4.jpg" alt="img">
+                    </div>
+
+                    <div>
+                        <img src="assets/Images/footer-thumb-5.jpg" alt="">
+                    </div>
+
+                    <div>
+                        <img src="assets/Images/footer-thumb-6.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
 
-        <hr class="text-2xl">
+        <hr class="text-3xl text-white">
 
         <div class="flex justify-between items-center py-3 px-8 text-white">
             <strong>Copyright © 2021 All Right Reserved</strong>
